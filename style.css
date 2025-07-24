@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 16px 200px;
+    padding: 16px 250px;
 }
 
 .header-logo {
@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    padding: 100px 200px;
+    padding: 50px 250px;
 
 }
 
@@ -75,4 +75,54 @@ header {
     background-color: #6B7280;
 }
 
+.main {
+    padding: 24px 200px;
+    text-align: center;
+}
 
+.main-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 24px;  
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+  }
+
+.card img {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #1F2937;  
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+  }
